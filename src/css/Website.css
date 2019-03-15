@@ -379,8 +379,9 @@ h1 {
 
 .HomePage .HomePageKitchenDetailsSection {
   display: flex; }
-  .HomePage .HomePageKitchenDetailsSection img {
-    max-width: none; }
+  .HomePage .HomePageKitchenDetailsSection .KitchenBackground {
+    width: 100%;
+    height: 100%; }
   .HomePage .HomePageKitchenDetailsSection .KitchenOverlay {
     position: absolute;
     left: 0%;
