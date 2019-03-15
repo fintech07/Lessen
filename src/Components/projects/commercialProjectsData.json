@@ -1,0 +1,46 @@
+{
+	"project A": {
+		"name": "project A",
+		"completedDate": "March 2011",
+		"testimonials": [
+			{
+				"quote": "We are still taken back by the beauty of our home every time we see it.",
+				"author": "D & K Andrews"
+			},
+			{
+				"quote": "We are so very grateful we were introduced to Keith.",
+				"author": "D & K Andrews"
+			}
+		],
+		"photos": {
+			"photo 1": {
+				"name": "project A photo 1",
+				"url": "project photos/project A/photo-1",
+				"sizes": {
+					"1200x448": {
+						"width": 1200,
+						"height": 448
+					},
+					"750x280": {
+						"width": 750,
+						"height": 280
+					},
+					"140x52": {
+						"width": 140,
+						"height": 52
+					}
+				}
+			},
+			"photo 2": {
+				"name": "project A photo 2",
+				"url": "project photos/project A/photo-2",
+				"sizes": {
+					"1200x720": {
+						"width": 1200,
+						"height": 720
+					}
+				}
+			}
+		}
+	}
+}

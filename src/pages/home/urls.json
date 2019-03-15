@@ -1,0 +1,18 @@
+{
+    "images": {
+        "detail1": "./img/detail1.png",
+        "detail2": "./img/detail2.png",
+        "detail3": "./img/detail3.png",
+        "kitchen": "./img/kitchen-interior1.jpg",
+        "kitchenOverlay": "./img/kitchen.svg",
+        "photo1": "./img/photo-1.jpb",
+        "3dRendering": "./img/3dRendering.png"
+    },
+
+    "social": {
+        "facebook": "www.facebook.com",
+        "instagram": "www.instagram.com",
+        "twitter": "www.twitter.com",
+        "pinterest": "www.pinterest.com"
+    }
+}

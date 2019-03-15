@@ -1,0 +1,58 @@
+
+<svg width="1920px" height="1157px" viewBox="0 0 1920 1157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+        <g id="Homepage-2" transform="translate(0.000000, -4171.000000)">
+            <g id="5" transform="translate(0.000000, 4171.000000)">
+                <rect id="Rectangle" stroke="#979797" fill-opacity="0" fill="#D8D8D8" x="0.5" y="0.5" width="1919" height="1156"></rect>
+                <g id="Hardwood-Floors-Copy" transform="translate(579.000000, 904.000000)">
+                    <rect id="Rectangle-5" fill="#F88332" fill-rule="nonzero" opacity="0.75" x="0" y="0" width="398" height="74"></rect>
+                    <text id="HARDWOOD-FLOORS" font-family=".SFNSDisplay, .SF NS Display" font-size="25" font-weight="normal" letter-spacing="2.579185" fill="#FFFFFF">
+                        <tspan x="58.6595305" y="41">HARDWOOD FLOORS</tspan>
+                    </text>
+                    <path d="M199,77 L199,137" id="Line-Copy-3" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square" fill-rule="nonzero"></path>
+                    <circle id="Oval-2-Copy" fill="#FFFFFF" fill-rule="nonzero" opacity="0.642578125" cx="199.5" cy="160.5" r="21.5"></circle>
+                    <circle id="Oval-2" stroke="#979797" fill="#FFFFFF" fill-rule="nonzero" cx="200" cy="161" r="11"></circle>
+                </g>
+                <g id="Granite-Countertops" transform="translate(1269.000000, 708.000000)">
+                    <rect id="Rectangle-5" fill="#F88332" fill-rule="nonzero" opacity="0.75" x="0" y="126" width="422" height="74"></rect>
+                    <text id="GRANITE-COUNTERTOPS" font-family=".SFNSDisplay, .SF NS Display" font-size="25" font-weight="normal" letter-spacing="2.579185" fill="#FFFFFF">
+                        <tspan x="48.83368" y="168">GRANITE COUNTERTOPS</tspan>
+                    </text>
+                    <path d="M72,22 L212,22" id="Line" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square" fill-rule="nonzero"></path>
+                    <path d="M212,23 L212,123" id="Line-Copy-4" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square" fill-rule="nonzero"></path>
+                    <circle id="Oval-2-Copy" fill="#FFFFFF" fill-rule="nonzero" opacity="0.642578125" cx="47.5" cy="21.5" r="21.5"></circle>
+                    <circle id="Oval-2" stroke="#979797" fill="#FFFFFF" fill-rule="nonzero" cx="48" cy="22" r="11"></circle>
+                </g>
+                <g id="Vintage-Lights" transform="translate(1066.000000, 352.000000)">
+                    <g id="Group" transform="translate(199.000000, 126.000000) rotate(-180.000000) translate(-199.000000, -126.000000) " fill-rule="nonzero">
+                        <rect id="Rectangle-5" fill="#F88332" opacity="0.75" x="0" y="0" width="398" height="74"></rect>
+                        <path d="M149,76 L149,206" id="Line-Copy-3" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square"></path>
+                        <circle id="Oval-2-Copy" fill="#FFFFFF" opacity="0.642578125" cx="149.5" cy="230.5" r="21.5"></circle>
+                        <circle id="Oval-2" stroke="#979797" fill="#FFFFFF" cx="150" cy="231" r="11"></circle>
+                    </g>
+                    <text id="VINTAGE-LIGHTS" font-family=".SFNSDisplay, .SF NS Display" font-size="25" font-weight="normal" letter-spacing="2.579185" fill="#FFFFFF">
+                        <tspan x="85.931789" y="221">VINTAGE LIGHTS</tspan>
+                    </text>
+                </g>
+                <g id="Inbuilt-Appliances" transform="translate(396.000000, 422.000000)">
+                    <rect id="Rectangle-5" fill="#F88332" fill-rule="nonzero" opacity="0.75" x="0" y="0" width="398" height="74"></rect>
+                    <text id="INBUILT-APPLIANCES" font-family=".SFNSDisplay, .SF NS Display" font-size="25" font-weight="normal" letter-spacing="2.579185" fill="#FFFFFF">
+                        <tspan x="56.2311827" y="41">INBUILT APPLIANCES</tspan>
+                    </text>
+                    <path d="M398.5,36.5 L538.5,36.5" id="Line" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square" fill-rule="nonzero"></path>
+                    <circle id="Oval-2-Copy" fill="#FFFFFF" fill-rule="nonzero" opacity="0.642578125" cx="562.5" cy="36.5" r="21.5"></circle>
+                    <circle id="Oval-2" stroke="#979797" fill="#FFFFFF" fill-rule="nonzero" cx="563" cy="37" r="11"></circle>
+                </g>
+                <g id="Walnut-Cabinets" transform="translate(447.000000, 98.000000)">
+                    <rect id="Rectangle-5" fill="#F88332" fill-rule="nonzero" opacity="0.75" x="188" y="0" width="385" height="74"></rect>
+                    <text id="WALNUT-CABINETS" font-family=".SFNSDisplay, .SF NS Display" font-size="25" font-weight="normal" letter-spacing="2.579185" fill="#FFFFFF">
+                        <tspan x="248.881943" y="42">WALNUT CABINETS</tspan>
+                    </text>
+                    <path d="M46,37 L186,37" id="Line" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square" fill-rule="nonzero"></path>
+                    <circle id="Oval-2-Copy" fill="#FFFFFF" fill-rule="nonzero" opacity="0.642578125" cx="21.5" cy="36.5" r="21.5"></circle>
+                    <circle id="Oval-2" stroke="#979797" fill="#FFFFFF" fill-rule="nonzero" cx="22" cy="37" r="11"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

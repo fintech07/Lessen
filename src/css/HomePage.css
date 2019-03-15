@@ -1,0 +1,198 @@
+.HomePage .HomePageGallery {
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1044px;
+  overflow: hidden; }
+  .HomePage .HomePageGallery .image-gallery-image img {
+    max-width: none;
+    width: auto;
+    height: 1044px; }
+  .HomePage .HomePageGallery .GalleryPhotoCaption {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    height: 1044px;
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(15deg, white 0%, white 1880px, rgba(255, 255, 255, 0) 1880px, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(15deg, white 0%, white 1880px, rgba(255, 255, 255, 0) 1880px, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(70deg, white 0%, white 1880px, rgba(255, 255, 255, 0) 1880px, rgba(255, 255, 255, 0) 100%);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px; }
+    .HomePage .HomePageGallery .GalleryPhotoCaption .GalleryQuote {
+      margin-left: 3%;
+      margin-right: 15%; }
+      .HomePage .HomePageGallery .GalleryPhotoCaption .GalleryQuote h1 {
+        max-width: 85%; }
+      .HomePage .HomePageGallery .GalleryPhotoCaption .GalleryQuote .InputQuote {
+        max-width: max-content;
+        max-height: max-content;
+        margin-bottom: 1rem !important;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        max-width: 80%;
+        border-radius: 10px;
+        box-shadow: -4px 7px 15px rgba(0, 0, 0, 0.1);
+        font-size: 1.8rem; }
+        .HomePage .HomePageGallery .GalleryPhotoCaption .GalleryQuote .InputQuote input {
+          border: none;
+          border-radius: 5px 0px 0px 5px;
+          padding-left: 5%;
+          flex-grow: 2;
+          font-size: 1.35rem; }
+        .HomePage .HomePageGallery .GalleryPhotoCaption .GalleryQuote .InputQuote button {
+          border: none;
+          border-radius: 0px 5px 5px 0px;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          padding: 17px; }
+    .HomePage .HomePageGallery .GalleryPhotoCaption .social {
+      width: 40rem;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 2rem 2rem 2rem;
+      padding-bottom: 5%; }
+      .HomePage .HomePageGallery .GalleryPhotoCaption .social .SocialLinks {
+        display: flex;
+        width: 20rem;
+        justify-content: space-around; }
+        .HomePage .HomePageGallery .GalleryPhotoCaption .social .SocialLinks img {
+          width: 1.5rem;
+          height: 1.5rem; }
+      .HomePage .HomePageGallery .GalleryPhotoCaption .social .Trail {
+        display: flex;
+        justify-content: space-around;
+        width: 15rem; }
+
+.HomePage .HomeSection {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1044px;
+  overflow: hidden; }
+  .HomePage .HomeSection img, .HomePage .HomeSection .image-gallery {
+    position: relative;
+    z-index: 1;
+    max-width: none; }
+  .HomePage .HomeSection .image-gallery img {
+    max-width: none;
+    width: auto;
+    height: 1044px; }
+  .HomePage .HomeSection:nth-child(odd) figcaption {
+    background-color: #FFF;
+    color: #000;
+    padding: 5% 20% 5% 5%;
+    left: 0;
+    right: auto; }
+  .HomePage .HomeSection:nth-child(even) figcaption {
+    background-color: #000;
+    color: #FFF;
+    padding: 5% 5% 5% 20%;
+    right: 0;
+    left: auto; }
+  .HomePage .HomeSection figcaption {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0; }
+    .HomePage .HomeSection figcaption .ConceptContext h1 {
+      font-size: 3.8rem; }
+    .HomePage .HomeSection figcaption .ConceptContext p {
+      line-height: 2;
+      font-size: 1.8rem; }
+  .HomePage .HomeSection .ConceptBackground {
+    max-height: 1044px; }
+  @supports (background-image: linear-gradient(75deg, white 0%, black 100%)) {
+    .HomePage .HomeSection:nth-child(odd) figcaption {
+      background-color: transparent;
+      background-image: -webkit-linear-gradient(15deg, white 0%, white 1880px, rgba(255, 255, 255, 0) 1880px, rgba(255, 255, 255, 0) 100%);
+      background-image: -o-linear-gradient(15deg, white 0%, white 1880px, rgba(255, 255, 255, 0) 1880px, rgba(255, 255, 255, 0) 100%);
+      background-image: linear-gradient(70deg, white 0%, white 1880px, rgba(255, 255, 255, 0) 1880px, rgba(255, 255, 255, 0) 100%);
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-size: 2000px 2000px; }
+    .HomePage .HomeSection:nth-child(even) figcaption {
+      background-color: transparent;
+      background-image: -webkit-linear-gradient(15deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 684px, black 684px, black 100%);
+      background-image: -o-linear-gradient(15deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 684px, black 684px, black 100%);
+      background-image: linear-gradient(70deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 684px, black 684px, black 100%);
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-size: 2000px 2000px; } }
+
+.HomePage .Concept .ConceptContext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  max-width: max-content !important; }
+  .HomePage .Concept .ConceptContext .Compass img {
+    width: 100px;
+    height: 100px; }
+  .HomePage .Concept .ConceptContext .Contract {
+    align-self: flex-end; }
+    .HomePage .Concept .ConceptContext .Contract img {
+      width: 100px;
+      height: 100px; }
+
+.HomePage .Detail .ConceptContext {
+  max-width: max-content !important; }
+
+.HomePage .Detail .PhotoPanel {
+  width: 50%;
+  position: relative;
+  margin-top: -50rem; }
+  .HomePage .Detail .PhotoPanel .Photo {
+    width: 30rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+    position: absolute !important; }
+  .HomePage .Detail .PhotoPanel .Photo-1 {
+    left: 10%;
+    top: -2rem; }
+  .HomePage .Detail .PhotoPanel .Photo-2 {
+    left: 5%;
+    top: 25rem; }
+  .HomePage .Detail .PhotoPanel .Photo-3 {
+    left: 40%;
+    top: 5rem; }
+
+.HomePage .HomePageKitchenDetailsSection {
+  display: flex; }
+  .HomePage .HomePageKitchenDetailsSection img {
+    max-width: none; }
+  .HomePage .HomePageKitchenDetailsSection .KitchenOverlay {
+    position: absolute;
+    left: 0%;
+    right: 0%; }

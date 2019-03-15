@@ -1,0 +1,54 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #FFF;
+  color: #363637; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  min-height: 100%; }
+
+figure {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+button {
+  background-color: #F88332;
+  color: #FFF;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .15rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: .3rem;
+  box-shadow: 0 -0.2rem 0.2rem rgba(54, 54, 55, 0.2) inset;
+  line-height: 24px; }
+
+a {
+  color: #AAAEB8;
+  font-size: inherit; }
+  a:link, a:hover, a:active, a:visited {
+    color: inherit;
+    font-size: inherit; }
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: normal; }
+
+#root {
+  min-height: 100%;
+  margin: 0 auto; 
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+

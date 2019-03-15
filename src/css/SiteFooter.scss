@@ -1,0 +1,79 @@
+@import './common.scss';
+
+.SiteFooter {
+	text-align: center;
+
+	.RequestMeeting {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 0.5rem 0 2rem 0;
+		background-color: #F5F0E9;
+	}
+
+	.ContactUs {
+		background-color: $white;
+		color: $gray-darkest;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: 1.5rem 2rem 1.5rem 2rem;
+		display: flex;
+	    justify-content: space-between;
+
+		h1 {
+			@include hide();
+		}
+
+		a {
+			font-weight: normal;
+			color: $gray-light;
+			text-decoration: none;
+
+			&:hover {
+				color: black;
+				@include overscale(1.2);
+			}
+		}
+
+		figure {
+			margin: 10px 20px;
+
+			figcaption {
+				display: inline-block;
+				margin-right: 5px;
+			}
+		}
+	}
+
+	.Copyright {
+		background-color: $gray-darkest;
+		color: $gray-lightest;
+		font-size: 1rem;
+		font-weight: bold;
+		padding: 1.2rem 0 1.2rem 0;
+
+		display: flex;
+		justify-content: center;
+
+		.blank {
+			flex: 1 auto;
+		}
+
+		label {
+			position: absolute;
+		}
+
+		.social {
+			width: 15rem;
+			display: flex;
+			justify-content: space-around;
+			align-self: flex-end;
+			margin: 0 5rem 0 5rem;
+			
+			img:hover {
+				@include overscale(1.5);
+			}
+		}
+	}
+}

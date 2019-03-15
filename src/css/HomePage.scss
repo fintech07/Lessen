@@ -1,0 +1,297 @@
+
+$pagewidth: 1932px;
+$halfwidth: 867px;
+$desktop: 1351px;
+$heightstep: 1044px;
+$gradoffset: 1880px;
+$gradoffsetop: 684px;
+
+$leftside: 0;
+$rightside: 1;
+
+$font-size-normal: 1.8rem;
+$font-size-big: 3.8rem;
+
+@mixin clipdraw($side){
+    @if $side == $leftside {
+        background-color: transparent;
+        background-image: -webkit-linear-gradient(15deg, white 0%, white $gradoffset, rgba(255, 255, 255, 0) $gradoffset, rgba(255, 255, 255, 0) 100%);
+        background-image: -o-linear-gradient(15deg, white 0%, white $gradoffset, rgba(255, 255, 255, 0) $gradoffset, rgba(255, 255, 255, 0) 100%);
+        background-image: linear-gradient(70deg, white 0%, white $gradoffset, rgba(255, 255, 255, 0) $gradoffset, rgba(255, 255, 255, 0) 100%);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 2000px 2000px;
+    } @else {
+        background-color: transparent;
+        background-image: -webkit-linear-gradient(15deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) $gradoffsetop, black $gradoffsetop, black 100%);
+        background-image: -o-linear-gradient(15deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) $gradoffsetop, black $gradoffsetop, black 100%);
+        background-image: linear-gradient(70deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) $gradoffsetop, black $gradoffsetop, black 100%);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: 2000px 2000px; 
+    }
+}
+
+.HomePage {
+
+
+    .HomePageGallery {
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-align: center;
+            align-items: center;
+        height: $heightstep;
+        overflow: hidden;
+
+        .image-gallery-image img {
+            max-width: none;
+            width: auto;
+            height: $heightstep;
+        }
+
+        .GalleryPhotoCaption {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+                flex-direction: column;
+            -ms-flex-pack: space-between;
+                justify-content: space-between;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            
+            width: 50%;;
+            height: $heightstep;
+            padding: 20px;
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            bottom: 0;
+            
+            @include clipdraw($leftside);
+
+            .GalleryQuote {
+                margin-left: 3%;
+                margin-right: 15%;
+        
+                h1 {
+                    max-width: 85%;
+                }
+        
+                .InputQuote {
+                    max-width: max-content;
+                    max-height: max-content;
+                    margin-bottom: 1rem!important;
+                    position: relative;
+                    display: -ms-flexbox;
+                        display: flex;
+                    -ms-flex-wrap: nowrap;
+                        flex-wrap: nowrap;
+                    -ms-flex-align: stretch;
+                        align-items: stretch;
+                    max-width: 80%;
+                    border-radius: 10px;
+                    box-shadow: -4px 7px 15px rgba(0, 0, 0, 0.1);
+                    font-size: $font-size-normal;
+        
+                    input {
+                        border: none;
+                        border-radius: 5px 0px 0px 5px;
+                        padding-left: 5%;
+                        flex-grow: 2;
+                        font-size: $font-size-normal * 0.75;
+                    }
+                
+                    button {
+                        border: none;
+                        border-radius: 0px 5px 5px 0px;
+                        -webkit-box-shadow: none;
+                            box-shadow: none;
+                        padding: 17px;
+                    }
+                }
+            }
+
+            .social {
+                width: 40rem;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 2rem 2rem 2rem;
+                padding-bottom: 5%;
+
+                .SocialLinks{
+                    display: flex;
+                    width: 20rem;
+                    justify-content: space-around;
+                    
+                    img {
+                        width: 1.5rem;
+                        height: 1.5rem;
+                    }
+                }
+        
+                .Trail {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 15rem;
+                }
+            }
+        }
+
+    }
+
+    .HomeSection {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-align: center;
+            align-items: center;
+        height: $heightstep;
+        overflow: hidden;
+
+        img, .image-gallery {
+            position: relative;
+            z-index: 1;
+            max-width: none; 
+        }
+
+        .image-gallery img {
+            max-width: none;
+            width: auto;
+            height: $heightstep; 
+        }
+
+        &:nth-child(odd) figcaption {
+            background-color: #FFF;
+            color: #000;
+            padding: 5% 20% 5% 5%;
+            left: 0;
+            right: auto;
+        }
+
+        &:nth-child(even) figcaption {
+            background-color: #000;
+            color: #FFF;
+            padding: 5% 5% 5% 20%;
+            right: 0;
+            left: auto;
+        }
+
+        figcaption {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+                flex-direction: column;
+            -ms-flex-pack: center;
+                justify-content: center;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            width: 50%;
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            bottom: 0;
+
+            .ConceptContext{
+
+                h1 {
+                    font-size: $font-size-big;
+                }
+                p {
+                    line-height: 2;
+                    font-size: $font-size-normal;
+                }    
+            }
+
+        }
+
+        .ConceptBackground {
+            max-height: $heightstep;
+        }
+
+        @supports (background-image: linear-gradient(75deg, white 0%, black 100%)) {
+            &:nth-child(odd) figcaption {
+                @include clipdraw($leftside);
+            }
+            &:nth-child(even) figcaption {
+                @include clipdraw($rightside);
+            }
+        }
+    }
+
+    .Concept {
+        .ConceptContext {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-grow: 1;
+            max-width: max-content!important;
+
+            .Compass {
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+    
+            .Contract {
+                align-self: flex-end;
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+
+    .Detail {
+        .ConceptContext {
+            max-width: max-content!important;
+        }
+
+        .PhotoPanel {
+            width: 50%;
+            position: relative;
+            margin-top: -50rem;
+    
+            .Photo {
+                width: 30rem;
+                box-shadow: 0 1.5rem 4rem rgba(black, 0.2);
+                position: absolute !important;            
+            }
+    
+            .Photo-1 {
+                left: 10%;
+                top: -2rem;                
+            }
+    
+            .Photo-2 {
+                left: 5%;
+                top: 25rem;                
+            }
+    
+            .Photo-3 {
+                left: 40%;
+                top: 5rem;                
+            }
+        }
+
+    }
+
+    .HomePageKitchenDetailsSection {
+        
+        display: flex;
+
+        img {
+            max-width: none;
+        }
+        .KitchenOverlay {
+            position: absolute;
+            left: 0%;
+            right: 0%;
+        }    
+    }
+
+}
