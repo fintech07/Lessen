@@ -1,15 +1,42 @@
-
+//constant
+$leftside:              0;
+$rightside:             1;
 
 //font size
-$size-smallest: 0.625rem;
-$ize-smaller: 0.75rem;
-$size-small: 0.875rem;
-$size-normal: 1rem;
-$size-big: 1.125rem;
-$size-bigger: 1.25rem;
-$size-bigger-big: 1.5rem;
-$size-bigger-bigger: 1.875rem;
-$size-biggest: 2rem;
+$size-smallest:         0.625rem;
+$ize-smaller:           0.75rem;
+$size-small:            0.875rem;
+$size-normal:           1rem;
+$size-big:              1.125rem;
+$size-bigger:           1.25rem;
+$size-bigger-big:       1.5rem;
+$size-bigger-bigger:    1.875rem;
+$size-biggest:          2rem;
 
+$font-size-normal:      1.5rem;
+$font-size-big:         3rem;
 
+//screen size...
+$pagewidth:             1932px;
+$halfwidth:             867px;
 
+$width-step-1:          1400px;
+$width-step-2:          1024px;
+$width-step-3:          1080px;
+
+$heightstep:            1044px;
+$gradoffset:            1880px;
+$gradoffsetop:          684px;
+
+//padding sizes...
+$padding-bigger:        2rem;
+$padding-big:           1.5rem;
+$padding-normal:        1rem;
+$padding-samll:         0.5rem;
+$padding-smaller:       0.25rem;
+
+$padding-bigger-pct:    20%;
+$padding-big-pct:       15%;
+$padding-normal-pct:    10%;
+$padding-samll-pct:     5%;
+$padding-smaller-pct:   1%;
